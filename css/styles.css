@@ -23,13 +23,15 @@ body{
     display:flex;
     justify-content: space-between;
     padding: 2em;
-
+    background-color: #fff;
 }
 
 .brand{
     margin-top: -7px;
 }
-
+.brand h2{
+    color: black;
+}
 .brand span {
     color: aqua;
     
@@ -39,6 +41,7 @@ body{
     display: flex;
     width: 50%;
     justify-content: space-around;
+    
 }
 
 .menu li{
@@ -46,9 +49,10 @@ body{
 }
 
 .menu a{
-    color:#fff;
+    color:darkslategrey;
     text-decoration: none;
     padding: 10px 20px;
+    
 }
 
 .menu .active{
@@ -68,6 +72,7 @@ body{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     align-items: center;
+    position: relative;
 }
 
 h1{
@@ -94,10 +99,10 @@ span{
 }
 
 .main img{
-    width: 350px;
+    width: 550px;
     border: 7px solid aqua;
     height: 520px;  
-
+    margin-top: 1.7rem;
 }
 /* @media(min-width:768px){
     .about{
@@ -108,17 +113,20 @@ span{
 } */
 .about{    
     display: grid;
+    height: 4500px;
     grid-template-columns: repeat(2, 1fr);
-    column-gap: 1rem;
+    grid-template-rows: repeat(3,1fr);
+    column-gap: 0.5rem;
 }
 
 .about img{
     width: 100%;
+    margin-top: 1.5rem;
 }
 
 .about-info{
     padding: 2em;
-    margin: 3px;
+    margin: 1.7em;
 }
 
 .about-info h2{
@@ -135,6 +143,7 @@ span{
 }
 
 .about p{
+    font-size: 2.6rem;
     margin-bottom: 1em;
 }
 
@@ -170,12 +179,26 @@ span{
 
 }
 
-.card__img{
+.card__img1{
     width: 100%;
-    height: 150px;
-    background-image: url(../img/sebasfachero.jpeg);
+    height: 300px;
+    background-image: url(../img/bosquecillo.jfif);
     background-size: cover;
 }
+.card__img2{
+    width: 100%;
+    height: 300px;
+    background-image: url(../img/chibchaweb.png);
+    background-size: cover;
+}
+
+.card__img3{
+    width: 100%;
+    height: 300px;
+    background-image: url(../img/tinder.jfif);
+    background-size: cover;
+}
+
 
 .card__title{
     padding: 20px;
@@ -214,6 +237,12 @@ span{
     margin-top: 1em;
 }
 
+.contact-section{
+    display: flex;
+    flex-direction: column;
+    margin-top: 8rem;
+}
+
 .contacts-headings h2{
     font-size: 3em;
 }
@@ -221,12 +250,17 @@ span{
 .container-contact{
     padding: 3em;
     margin: 0 auto;
+    border: 1px solid ;
+    margin-bottom: 2rem;
+    
 }
 
 .container-contact img{
     width: 750px;
     height: 700px;
     bottom: 0px;
+
+    
 }
 
 .form{

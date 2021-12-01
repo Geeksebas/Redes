@@ -182,7 +182,7 @@ span{
 .card__img1{
     width: 100%;
     height: 300px;
-    background-image: url(../img/bosquecillo.jfif);
+    background-image: url(../img/bosquecillo.png);
     background-size: cover;
 }
 .card__img2{
@@ -195,7 +195,7 @@ span{
 .card__img3{
     width: 100%;
     height: 300px;
-    background-image: url(../img/tinder.jfif);
+    background-image: url(../img/tinder.png);
     background-size: cover;
 }
 

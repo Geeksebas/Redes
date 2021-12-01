@@ -1,4 +1,4 @@
-
+/*
 *{
     margin:0;
     padding: 0;
@@ -102,13 +102,13 @@ span{
     height: 520px;  
     margin-top: 1.7rem;
 }
-/* @media(min-width:768px){
+ @media(min-width:768px){
     .about{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         column-gap: 1rem;
     }
-} */
+} 
 .about{    
     display: grid;
     height: 7500px;
@@ -326,4 +326,5 @@ span{
     width: 300px;
     margin-top: 1em;
 
-}
+} 
+*/
